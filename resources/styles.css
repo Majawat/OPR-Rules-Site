@@ -21,8 +21,8 @@ img {
 
 .column {
   float: left;
-  width: 46%;
-  padding: 2%;
+  width: 48%;
+  padding: 1%;
 }
 
 .row:after {
