@@ -31,6 +31,10 @@ p {
   break-inside: avoid;
 }
 
+.special-rule {
+  break-inside: avoid;
+}
+
 ul,
 ol {
   break-inside: avoid;
