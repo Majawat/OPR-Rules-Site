@@ -31,12 +31,12 @@ p {
   break-inside: avoid;
 }
 
-.special-rule-item {
+.no-break {
   break-inside: avoid;
   page-break-inside: avoid;
 }
 
-.special-rules {
+.section-columns {
   column-fill: auto;
   column-count: 2;
 }
