@@ -53,3 +53,11 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.special-rules {
+  column-count: 2;
+}
+.special-rules-item {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}

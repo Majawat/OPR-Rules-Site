@@ -31,8 +31,14 @@ p {
   break-inside: avoid;
 }
 
-.special-rule {
+.special-rule-item {
   break-inside: avoid;
+  page-break-inside: avoid;
+}
+
+.special-rules {
+  column-fill: auto;
+  column-count: 2;
 }
 
 ul,
@@ -51,6 +57,7 @@ img {
   float: left;
   width: 48%;
   padding: 1%;
+  column-fill: auto;
 }
 
 .row:after {
