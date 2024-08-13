@@ -77,3 +77,19 @@ img {
   flex-direction: row;
   justify-content: space-evenly;
 }
+
+.section-header {
+  background-color: #29282f;
+  padding: 15px;
+  color: white;
+}
+.section-header hr {
+  border: none;
+  height: 2px;
+  background-color: #8e8262;
+}
+
+.section-header h3 {
+  font-size: 2em;
+  margin: 0;
+}
