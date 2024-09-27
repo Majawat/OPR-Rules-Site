@@ -26,7 +26,7 @@
   <body>
     <header>
       <img src="images/gf-images/gf-logo.png" alt="Grimdark Future logo" />
-      <h1>Beginner's Guide <small>v3.3.1</small></h1>
+      <h1>Beginner's Guide <small>v3.4.0</small></h1>
       <h2>
         A <em>very unoffical</em>, responsive website of the Beginnner rules for
         Grimark Future
@@ -97,12 +97,14 @@
           <h3><a name="introduction">Introduction</a></h3>
           <p>
             Grimdark Future is a miniature wargame set in a war-torn sci-fi
-            future, which is played using 32mm miniatures. The game mechanics
-            are designed to be easy to learn but hard to master, pinging
-            engaging sci-fi battles for new and experienced players alike. This
-            rulebook is divided into 4 sections:
+            future, which is played using 32mm miniatures.
           </p>
-
+          <p>
+            The game mechanics are designed to be easy to learn but hard to
+            master, bringing engaging sci-fi battles for new and experienced
+            players alike.
+          </p>
+          <p>This rulebook is divided into 4 sections:</p>
           <ul>
             <li>
               <strong>Basic Rules</strong> - Everything you need to play the
@@ -160,9 +162,16 @@
           <p>
             <strong>Created By:</strong> Gaetano Ferrara <br />
             <strong>Game Design:</strong> Gaetano Ferrara<br />
-            <strong>Illustrations:</strong> Fran Fernandez, Joao Fiuza, Brandon
-            Gillam
+            <strong>Illustrations:</strong> Martim Cordovil, Fran Fernandez,
+            Brandon Gillam
           </p>
+          <em>
+            <p>
+              OPR Games, Unipessoal LDA<br />
+              Avenida 5 de Outubro 104 r/c, 1050-060 Lisbon, Portugal<br />Copyright
+              © 2021 OPR Games - First Published 2024
+            </p></em
+          >
         </div>
         <nav>
           <div class="column">
@@ -181,26 +190,27 @@
                 <li><a href="#terrain">Terrain</a></li>
                 <li><a href="#special-rules">Special Rules</a></li>
               </ol>
+              <li>Pre-Made Rule Packs</li>
               <li>Advanced Rules</li>
               <ol>
-                <li>Terrain Placement</li>
-                <li>Deployment Styles</li>
-                <li>Extra Missions</li>
-                <li>Side-Missions</li>
-                <li>Extra Actions</li>
-                <li>Solid Buildings</li>
+                <li>Advanced Terrain</li>
+                <li>Advanced Deployment Styles</li>
+                <li>Advanced Missions</li>
+                <li>Advanced Actions</li>
+                <li>Advanced Casting</li>
+                <li>Battlefield Effects</li>
                 <li>Random Events</li>
-                <li>Battlefield Conditions</li>
-                <li>Terrain & Objective Effects</li>
               </ol>
               <li>Total Conversions</li>
               <ol>
                 <li>Fog of War</li>
+                <li>Unit Psychology</li>
                 <li>Brutal Damage</li>
                 <li>Command Points</li>
-                <li>Suppression</li>
+                <li>Twists & Gambits</li>
+                <li>Boarding Actions</li>
+                <li>Massive Battles</li>
                 <li>Multiplayer Games</li>
-                <li>Apocalyptic Games</li>
                 <li>Kitchen Table Games</li>
                 <li>Small-Scales & Multi-Basing</li>
               </ol>
@@ -239,7 +249,12 @@
           Roll one die. On a result of 1-3 player A decides, and on a result of
           4-6 player B decides. This decision then applies for the rest of the
           match, and once the game is over you can continue to discuss the finer
-          details of the rules.
+          details of the rules
+        </p>
+        <p>
+          Note that whenever possible, players should agree on any rules and
+          unusual situations (such as weirdly shaped models) before the game
+          begins, to avoid issues later.
         </p>
       </article>
       <article class="general-item no-break">
@@ -346,7 +361,7 @@
         <p>
           Whenever a rule tells you to re-roll a dice result, simply pick up the
           number of dice you have to re-roll, and roll them again. The result of
-          the second roll is the final result, even if it’s worse than the
+          the second roll is the final result, even if it's worse than the
           first. A die roll may only be re-rolled once, regardless of how many
           rules apply to it.
         </p>
@@ -406,7 +421,7 @@
           <em>
             Example: A model with Quality 4+ must take three Quality tests with
             a -1 modifier. The player rolls three dice and scores a 3, 4 and 5,
-            but because of the modifier the final result is a 2, a 3 and a 4
+            but because of the modifier the final result is a 2, a 3 and a 4.
           </em>
         </p>
       </article>
@@ -428,20 +443,23 @@
         <h4>Measuring Distances</h4>
         <p>
           To play the game you are going to need a ruler marked in inches, which
-          you may use to measure distances at any time.
+          you may use to measure distances at any time:
         </p>
+        <ul>
+          <li>
+            When measuring the distance between two models you always measure
+            from/to the closest point of their bases.
+          </li>
+          <li>
+            When measuring the distance between two units you always measure
+            from/to the closest model in each unit.
+          </li>
+        </ul>
         <p>
           Distances are usually measured from a model's base, however if a model
-          has no base, then all distances are measured from its hull or torso,
-          depending on the model.
-        </p>
-        <p>
-          When measuring the distance between two models you always measure
-          from/to the closest point of their bases.
-        </p>
-        <p>
-          When measuring the distance between two units you always measure
-          from/to the closest model in each unit.
+          has no base, then players must agree from where distances are to be
+          measured (such as its hull/torso), and which unusual features may be
+          ignored (like decorative banners or flame effects).
         </p>
         <img
           src="images/gf-images/measuring-bases.jpg"
@@ -463,21 +481,17 @@
           height="auto"
         />
         <p>
-          Note that whilst all examples here show round bases, these movement
-          restrictions apply in the same way to models on bases of different
-          shape or models without a base.
+          Note that these movement restrictions apply in the same way to models
+          on bases of any shape or models without a base.
         </p>
       </article>
       <article class="general-item no-break">
         <h4>Line of Sight</h4>
         <p>
           When playing the game, line of sight is used to determine if a model
-          can see another model for any purpose.
-        </p>
-        <p>
-          To determine line of sight, simply get down to the eye level of the
-          miniature, and check if it can see the target. If the target is
-          visible, then the model has line of sight.
+          can see another model for any purpose. Simply get down to the eye
+          level of the miniature, and check if it can see the target. If the
+          target is visible, then it has line of sight.
         </p>
         <p>
           Models can always see in all directions, regardless of where the
@@ -486,6 +500,10 @@
           can't see through solid obstacles, including the perimeter of other
           units (friendly or enemy), but they can always see through friendly
           models from their own unit.
+        </p>
+        <p>
+          Note that for players may agree to ignore unusual features (like
+          decorative banners or flame effects) for line of sight.
         </p>
         <img
           src="images/gf-images/2d-los.png"
@@ -506,7 +524,7 @@
         <h4>Preparing the Battlefield</h4>
         <p>
           You are going to need a flat 6'x4' area to play on, which is usually
-          referred to as "the battlefield" or "the table". Note that the game
+          referred to as “the battlefield” or “the table”. Note that the game
           can be also played on smaller areas, as long as armies deploy at least
           24" apart.
         </p>
@@ -537,10 +555,11 @@
           The players roll-off and the winner picks who places the first
           objective marker. Then the players alternate in placing one marker
           each outside of the deployment zones, and over 9” away from other
-          markers (note that markers can't be placed in unreachable position,
-          like impassable terrain).
+          markers (note that markers can't be placed in unreachable positions,
+          like impassable terrain or spots too tight to get to).
         </p>
       </article>
+      <h1>-------------UPDATED TO HERE-------------</h1>
       <article class="preparation-item no-break">
         <h4>The Mission</h4>
         <p>
