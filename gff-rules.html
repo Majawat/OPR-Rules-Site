@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OPR's Grimdark Future: Firefight Beginner Rules</title>
+    <title>OPR's Grimdark Future: Firefight | Beginner Rules</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -826,7 +826,7 @@
           line of sight.
         </p>
         <img
-          src="images/gf-images/who-can-shoot.png"
+          src="images/gff-images/who-can-shoot.png"
           alt="example showing who can shoot"
           width="370px"
           height="auto"
@@ -939,5 +939,135 @@
       <h3><a name="melee">Melee</a></h3>
       <hr />
     </header>
+    <section class="melee-section section-columns">
+      <article class="melee-item no-break">
+        <h4>Picking Targets</h4>
+        <p>
+          When taking a Charge action, a unit must pick one valid target and all
+          models in the unit must charge it.
+        </p>
+        <p>
+          If at least one model in the unit is within charge distance of one
+          model from the target unit, and has a clear path to reach it, then
+          that enemy is a valid target (no line of sight is needed).
+        </p>
+      </article>
+      <article class="melee-item no-break">
+        <h4>Charge Moves</h4>
+        <p>
+          Charging models must move by up to 12" to get into base contact with
+          an enemy model from the target unit, or as close as possible, whilst
+          still maintaining unit coherency (charge moves don't have to be in a
+          straight line).
+        </p>
+        <p>
+          Once all charging models have moved, all models from the target unit
+          that are not in base contact with a charging model must move by up to
+          3" to get into base contact with a charging model, or as close as
+          possible, maintaining unit coherency.
+        </p>
+        <img
+          src="images/gff-images/charging-example.png"
+          alt="example showing how charging works"
+          width="370px"
+          height="auto"
+        />
+      </article>
+      <article class="melee-item no-break">
+        <h4>Who Can Strike</h4>
+        <p>
+          All models that are within 2" horizontally and 4" vertically of an
+          enemy model from the target unit, may attack it.
+        </p>
+        <p>
+          Models must strike with all of their melee weapons, and may only
+          strike at models from the target unit.
+        </p>
+        <img
+          src="images/gff-images/who-can-strike.png"
+          alt="example showing who can strike during Charging"
+          width="370px"
+          height="auto"
+        />
+      </article>
+      <article class="melee-item no-break">
+        <h4>The Melee Sequence</h4>
+        <p>
+          Melee is done in a simple sequence which has to be followed separately
+          for the charging unit and the target unit:
+        </p>
+        <ol>
+          <li>Determine Attacks</li>
+          <li>Roll to Hit</li>
+          <li>Roll to Block</li>
+          <li>Check Wound Effects</li>
+        </ol>
+      </article>
+      <article class="melee-item no-break">
+        <h4>1. Determine Attacks</h4>
+        <p>
+          Sum the Attack value from the weapons of all models that can strike at
+          the target to determine how many attacks the unit has in total for
+          this melee.
+        </p>
+        <p>
+          <em
+            >Example: A Dynasty Warrior is charging a Dwarf. He is armed with a
+            CCW (Attack 1) and is in range of the Dwarf, which means that he has
+            a total of 1 attack for this melee.
+          </em>
+        </p>
+      </article>
+      <article class="melee-item no-break">
+        <h4>2. Roll to Hit</h4>
+        <p>
+          After having determined how many attacks the unit has in total, take
+          as many Quality tests as attacks. Each successful roll counts as a
+          hit, and all failed rolls are discarded with no effect.
+        </p>
+        <p>
+          <em
+            >Example: The Dynasty Warrior (Quality 4+) is striking at the Dwarf.
+            He takes one Quality test and rolls a 5. This means that he scored a
+            total of 1 hit.
+          </em>
+        </p>
+      </article>
+      <article class="melee-item no-break">
+        <h4>3. Roll to Block</h4>
+        <p>
+          For every hit that the unit has taken, the defending player must roll
+          one die, trying to score the target's Defense value. Each success
+          counts as a blocked hit, and for each failed roll place one wound
+          marker on the model.
+        </p>
+        <p>
+          <em
+            >Example: The Dwarf (Defense 4+) has taken 1 hit. He rolls one die
+            and gets a 3. This means that the Dwarf has taken 1 wound and must
+            check to see its effects.
+          </em>
+        </p>
+      </article>
+      <article class="melee-item no-break">
+        <h4>4. Check Wound Effects</h4>
+        <p>See wound effects page on how to resolve wounds.</p>
+      </article>
+      <article class="melee-item no-break">
+        <h4>Return Strikes</h4>
+        <p>
+          Once all charging models have attacked, the defending unit may choose
+          to strike back (following the melee sequence again), but doesn’t have
+          to. Note that striking back does not count as its activation, and
+          activated units may strike back.
+        </p>
+        <h4>Fatigue</h4>
+        <p>
+          After attacking in melee for the first time during a round, either by
+          charging or by striking back, units only hit on unmodified rolls of 6
+          in melee until the end of that round.
+        </p>
+      </article>
+    </section>
   </body>
 </html>
