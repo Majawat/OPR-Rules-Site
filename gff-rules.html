@@ -1057,7 +1057,7 @@
         <h4>Return Strikes</h4>
         <p>
           Once all charging models have attacked, the defending unit may choose
-          to strike back (following the melee sequence again), but doesn’t have
+          to strike back (following the melee sequence again), but doesn't have
           to. Note that striking back does not count as its activation, and
           activated units may strike back.
         </p>
@@ -1066,6 +1066,130 @@
           After attacking in melee for the first time during a round, either by
           charging or by striking back, units only hit on unmodified rolls of 6
           in melee until the end of that round.
+        </p>
+      </article>
+    </section>
+
+    <header class="section-header">
+      <h3><a name="morale">Wound Effects & Morale</a></h3>
+      <hr />
+    </header>
+    <section class="morale-section section-columns">
+      <article class="morale-item no-break">
+        <h4>Checking Wound Effects</h4>
+        <p>
+          Whenever a model has taken at least one wound, the defender must roll
+          one die and add the number of wound markers on it, and then check to
+          see what happens to it:
+        </p>
+        <table>
+          <tr>
+            <th>Result</th>
+            <th>Effect</th>
+          </tr>
+          <tr>
+            <td>1-5</td>
+            <td>
+              <strong>Shaken</strong> - Gets +1 to wound effect rolls, must stay
+              idle, counts as fatigued, always fails morale tests, and can't
+              contest or seize objectives. When activated, must spend its
+              activation being idle and doing nothing, which stops it from being
+              Shaken at the end of the activation.
+            </td>
+          </tr>
+          <tr>
+            <td>6+</td>
+            <td>
+              <strong>Knocked Out</strong> - The model is removed from play.
+            </td>
+          </tr>
+        </table>
+        <p>
+          Note that units must also check for wound effects when taking wounds
+          from other sources (special rules, terrain, etc.).
+        </p>
+        <p>
+          <em
+            >Example: A Dwarf has just taken one wound and must now check its
+            effect. He rolls one die and gets a 5, and adds +1 because it had
+            one wound. The final result is 6 and so the model is Knocked Out.
+          </em>
+        </p>
+      </article>
+      <article class="morale-item no-break">
+        <h4>Groups & Wounds</h4>
+        <p>
+          When a unit with multiple models takes wounds, each wound immediately
+          kills one model, until only one last model remains. Only the last
+          model then accumulates wound markers and rolls to see if it's Shaken
+          or Knocked Out.
+        </p>
+        <p>
+          Example: A unit of three Dwarves has taken three wounds, so it first
+          removes two models as casualties, and then puts one wound on the last
+          model and rolls to check the wound's effect.
+        </p>
+      </article>
+      <article class="morale-item no-break">
+        <h4>Consolidation Moves</h4>
+        <p>
+          In melee, if one of the two units was destroyed (removed all models as
+          casualties), then the other may move by up to 3".
+        </p>
+        <p>
+          If neither of the units was destroyed, then the charging unit must
+          move back by 1" (if possible), to keep the separation between units
+          clear, and show they are not locked in melee.
+        </p>
+      </article>
+      <img
+        src="images/gf-images/morale-art.png"
+        alt="a Blessed Sister looking super badass"
+        width="300px"
+      />
+      <article class="morale-item no-break">
+        <h4>Morale Tests</h4>
+        <p>
+          At the end of each round, if an army is down to half or less of its
+          starting units, then all of its units must take a morale test.
+        </p>
+        <p>Note that starting size is counted at the beginning of the game.</p>
+        <p>
+          <em
+            >Example: An Eternal Dynasty army started the game with 5 units, and
+            is down to 2 units at the end of a round, so all of its units must
+            take a morale test at the end of all rounds.
+          </em>
+        </p>
+      </article>
+      <article class="morale-item no-break">
+        <h4>Taking Morale Tests</h4>
+        <p>
+          To take a morale test, the affected unit must simply take one regular
+          Quality test, and see what happens:
+        </p>
+        <ul>
+          <li>If the roll is passed, nothing happens.</li>
+          <li>If the roll is failed, the unit is Shaken.</li>
+          <li>
+            If the test is failed, and the unit was already Shaken, then the
+            unit Routs.
+          </li>
+        </ul>
+      </article>
+      <article class="morale-item no-break">
+        <h4>Routed Units</h4>
+        <p>
+          Routed units have lost all hope and are taken captive, flee the
+          battle, or are otherwise rendered ineffective.
+        </p>
+        <p>Simply remove the entire unit from the game as a casualty.</p>
+        <p>
+          <em
+            >Example: An Eternal Dynasty army with 5 units has lost 3 units and
+            the remaining 2 units must take a morale test. They each take a
+            morale test and pass, so they both get to continue fighting.
+          </em>
         </p>
       </article>
     </section>
