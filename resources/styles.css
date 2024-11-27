@@ -13,6 +13,7 @@ h6 {
 }
 h4 {
   text-transform: uppercase;
+  margin: 0px;
 }
 
 img {
@@ -117,11 +118,18 @@ td:first-child {
   background-color: #29282f;
   padding: 15px;
   color: white;
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 .section-header hr {
   border: none;
   height: 2px;
   background-color: #8e8262;
+}
+
+.hr-image {
+  margin-bottom: 15px;
+  margin-top: 15px;
 }
 
 .section-header h3 {
