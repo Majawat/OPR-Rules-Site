@@ -24,6 +24,7 @@ img {
 
 table {
   border-collapse: collapse;
+  margin: 10px;
 }
 th {
   background-color: black;

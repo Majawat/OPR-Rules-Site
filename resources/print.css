@@ -31,6 +31,26 @@ p {
   break-inside: avoid;
 }
 
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+th,
+td {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid black;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+th:nth-child(even) {
+  text-align: left;
+}
+td:first-child {
+  text-align: center;
+  vertical-align: top;
+}
+
 .no-break {
   break-inside: avoid;
   page-break-inside: avoid;
